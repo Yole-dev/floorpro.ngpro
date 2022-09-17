@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-    color: rgb(26, 20, 72);
 }
 
 button:focus {
@@ -16,33 +15,64 @@ input:focus {
     outline: none !important;
 }
 
+
 nav ul li a {
     color: rgb(26, 20, 72);
 }
 
-.nav-item a:hover {
+nav ul li a:hover {
     color:rgb(255, 197, 0);
 }
 
-main section div a {
+main {
     color:rgb(26, 20, 72);
 }
 
-main section div a:hover {
-    color:rgb(255, 197, 0);
-}
-
-main section div a i {
+main div:first-of-type a {
     color:rgb(26, 20, 72);
 }
 
-main section div a:hover i {
-    color:rgb(255, 197, 0);
+.container div div img {
+    width: 155px;
+    height: 155px;
 }
 
-main section .row > div:nth-child(2), div:nth-child(4), div:nth-child(6) {
+.container div div img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0.3s;
+}
+
+.container div div p span {
     position: relative;
-    top: 2rem;
+    left: 1.5rem;
+}
+
+.container div div button {
+    background:rgb(255, 197, 0);
+    width: 70%;
+}
+
+.container div div button:hover {
+    background:rgba(243, 243, 243);
+    border: solid 1px rgb(255, 197, 0);
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0.3s;
+}
+
+.searchbar input{
+    background: rgba(243, 243, 243);
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.shop-icons {
+    color:rgb(26, 20, 72);
+}
+
+.shop-icons button i:hover {
+    color:rgb(255, 197, 0);
 }
 
 
@@ -61,6 +91,13 @@ footer a {
     background: rgb(26, 20, 72);
     width: 35px;
     height: 35px;
+}
+
+.social-links a i {
+    color: rgb(255, 197, 0);
+}
+.social-links a {
+    background: rgb(26, 20, 72);
 }
 
 .social-links a i {
@@ -94,7 +131,22 @@ footer a {
     top: 3px;
 }
 
-@media screen and (max-width: 780px) {
 
+@media  screen and (min-width: 780px) {
+
+
+    .container div div img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container div div button {
+        width: 55%;
+    }
+
+    .container div div p span {
+        position: relative;
+        left: 4.5rem;
+    }
 
 }

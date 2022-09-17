@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+button:focus {
+    outline: none !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+nav ul li a {
+    color: rgb(26, 20, 72);
+}
+
+nav ul li a:hover {
+    color:rgb(255, 197, 0);
+}
+
+main {
+    color:rgb(26, 20, 72);
+}
+
+main section:first-of-type button:hover {
+    background:rgba(243, 243, 243);
+    border: solid 1px rgb(255, 197, 0);
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0.3s;
+}
+
+.carousel {
+    width: 270px;
+}
+
+.delivery >div {
+    width: 270px;
+    border: solid 2px rgb(26, 20, 72);
+}
+
+.delivery >div p,i {
+    color:rgb(26, 20, 72);
+}
+
+form >div:last-of-type div input {
+    width: 160px;
+}
+
+main section:nth-child(4) .row .col > div:first-of-type {
+    width: 155px;
+    height: 155px;
+}
+
+main section:nth-child(4) .row .col > div:first-of-type:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0.3s;
+}
+
+
+main section:nth-child(4) .row .col:nth-child(1) > div:first-of-type{
+    background: url(Images/SPC/90fa726d6600405dbe1eb52960546321.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) .row .col:nth-child(2) > div:first-of-type{
+    background: url(Images/SPC/DC-Black-diamond_bvw_21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) .row .col:nth-child(3) > div:first-of-type{
+    background: url(Images/SPC/DC-Alabaster_bvw_08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) .row .col:nth-child(4) > div:first-of-type{
+    background: url(Images/SPC/DC-SunStone_42.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) .row .col > div:first-of-type >div {
+   background:rgb(255, 197, 0);
+   width: 40px;
+   border-top-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+
+main section:nth-child(4) i {
+    color:rgb(255, 197, 0);
+}
+main section:nth-child(4) p{
+    line-height: 10px;
+}
+
+main section:nth-child(5) .carousel {
+    width: 300px;
+}
+
+main section:nth-child(5) .carousel-item {
+    background: #eff0e2;
+}
+
+main section:nth-child(5) .carousel-item img{
+    width: 40px;
+    height: 40px;
+    border: solid 2px rgb(255, 197, 0);
+}
+
+main section:nth-child(6) > div:first-of-type {
+    background: #eff0e2;
+    width: 300px;
+}
+
+main section:nth-child(6) > div:first-of-type img {
+    width: 250px;
+    height: 200px;
+}
+
+main section:last-of-type .row .col {
+    width: 155px;
+    height: 155px;
+}
+
+main section:last-of-type .row >div:nth-child(1) {
+    background: url(Images/carpet-tiles/carpet-tiles-picture-id177542799.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:last-of-type .row >div:nth-child(2) {
+    background: url(Images/carpet-tiles/carpet-tiles-picture-id1049973156.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:last-of-type .row >div:nth-child(3) {
+    background: url(Images/carpet-tiles/8cc8dfe2f173207e193a12422021e68d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:last-of-type .row >div:nth-child(4) {
+    background: url(Images/carpet-tiles/73dd9f5836c8efb10d6448d0b835205c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(255, 197, 0);
+    color: rgb(26, 20, 72);
+}
+
+footer a {
+    color:rgb(26, 20, 72);
+}
+
+.social-links a {
+    background: rgb(26, 20, 72);
+    width: 35px;
+    height: 35px;
+}
+
+.social-links a i {
+    color: rgb(255, 197, 0);
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0.3s;
+}
+
+.social-links a:hover i {
+    color: rgb(243,243,243);
+    transition: 0.2s ease-in 0.3s;
+}
+
+.whatsappMobile {
+    background: rgb(26, 20, 72);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 9;
+    top: 41rem;
+    left: 20rem;
+}
+
+.whatsappMobile i {
+    color:rgb(255, 197, 0);
+    position: relative;
+    left: 6.7px;
+    top: 3px;
+}
+
+
+
+
+@media  screen and (max-width: 780px) {
+    header > .div1 {
+        background: rgb(26, 20, 72);
+        padding-left: 3rem;
+        padding-right: 5rem;
+    }
+
+    .welcome {
+        flex: 1;
+    }
+}
