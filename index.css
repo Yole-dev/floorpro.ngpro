@@ -7,7 +7,9 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-
+body {
+    border: solid 3px red;
+}
 
 
 button:focus {
@@ -108,7 +110,7 @@ main section:nth-child(5) .carousel {
 }
 
 main section:nth-child(5) .carousel-item {
-    background: #eff0e2;
+    background: #eff0e2 ;
 }
 
 main section:nth-child(5) .carousel-item img{
@@ -138,10 +140,20 @@ main section:last-of-type .row >div:nth-child(1) {
     background-repeat: no-repeat;
 }
 
+main section:last-of-type .row >div:nth-child(1) div {
+    position: relative;
+    top: 8rem;
+}
+
 main section:last-of-type .row >div:nth-child(2) {
     background: url(Images/carpet-tiles/carpet-tiles-picture-id1049973156.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+main section:last-of-type .row >div:nth-child(2) div {
+    position: relative;
+    top: 8rem;
 }
 
 main section:last-of-type .row >div:nth-child(3) {
@@ -150,10 +162,20 @@ main section:last-of-type .row >div:nth-child(3) {
     background-repeat: no-repeat;
 }
 
+main section:last-of-type .row >div:nth-child(3) div {
+    position: relative;
+    top: 8rem;
+}
+
 main section:last-of-type .row >div:nth-child(4) {
     background: url(Images/carpet-tiles/73dd9f5836c8efb10d6448d0b835205c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+main section:last-of-type .row >div:nth-child(4) div {
+    position: relative;
+    top: 8rem;
 }
 
 
@@ -210,12 +232,17 @@ footer a {
 
 @media  screen and (max-width: 780px) {
     header > .div1 {
-        background: rgb(26, 20, 72);
-        padding-left: 3rem;
-        padding-right: 5rem;
+        background: rgb(26, 20, 72) !important;
+        /* padding-left: 3rem;
+        padding-right: 5rem; */
+
     }
 
     .welcome {
         flex: 1;
+    }
+
+    main section:nth-child(6) {
+        width: 100% !important; 
     }
 }
